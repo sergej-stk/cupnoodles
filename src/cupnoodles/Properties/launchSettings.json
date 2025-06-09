@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "cupnoodles (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "cupnoodles (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
