@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="cupnoodles.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:cupnoodles"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+
+    <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Spacing="20">
+        <TextBlock
+            HorizontalAlignment="Center"
+            FontSize="48"
+            Text="🎉 Willkommen!" />
+        <TextBlock
+            HorizontalAlignment="Center"
+            FontSize="20"
+            Text="Sie wurden erfolgreich eingeloggt." />
+        <Button
+            x:Name="LogoutButton"
+            HorizontalAlignment="Center"
+            Click="LogoutButton_Click"
+            Content="Logout" />
+    </StackPanel>
+</Page>

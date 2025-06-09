@@ -9,10 +9,5 @@
     Title="cupnoodles"
     mc:Ignorable="d">
 
-    <StackPanel
-        HorizontalAlignment="Center"
-        VerticalAlignment="Center"
-        Orientation="Horizontal">
-        <Button x:Name="myButton">Click Me</Button>
-    </StackPanel>
+    <Frame x:Name="rootFrame" />
 </Window>
